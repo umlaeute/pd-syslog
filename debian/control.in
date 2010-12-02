@@ -1,0 +1,22 @@
+Source: pd-syslog
+Section: sound
+Priority: optional
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Uploaders: IOhannes m zmoelnig (gpg-key at iem) <zmoelnig@iem.at>,
+ Jonas Smedegaard <dr@jones.dk>
+Build-Depends: @cdbs@,
+ puredata
+Standards-Version: 3.9.1
+Homepage: http://puredata.info/community/projects/software/syslog
+Vcs-Git: git://git.debian.org/pkg-multimedia/pd-syslog.git
+Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/pd-syslog.git;a=summary
+
+Package: pd-syslog
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, puredata
+Description: syslog facilities for Pd
+ [syslog] takes care of sending arbitrary messages from Pure Data to syslog,
+ tagged with a syslog level you feel appropriate.
+ .
+ that's it
+

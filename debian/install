@@ -1,0 +1,2 @@
+syslog.pd_linux usr/lib/pd/extra/syslog/
+*.pd usr/lib/pd/extra/syslog/

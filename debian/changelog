@@ -1,0 +1,5 @@
+pd-syslog (0.1-1) UNRELEASED; urgency=low
+
+  * Initial release. (Closes: #603177)
+
+ -- IOhannes m zmoelnig (gpg-key at iem) <zmoelnig@iem.at>  Thu, 02 Dec 2010 15:35:21 +0100
