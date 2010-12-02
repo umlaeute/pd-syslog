@@ -1,15 +1,15 @@
 Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?rev=135
 Name: syslog
-Maintainer: IOhannes m zmölnig
+Maintainer: IOhannes m zmÃ¶lnig
 Source: http://puredata.info/community/projects/software/syslog/
 
-Copyright: 2006-2010, IOhannes m zmölnig <zmoelnig@iem.at>
+Copyright: 2006-2010, IOhannes m zmÃ¶lnig <zmoelnig@iem.at>
 License: GPL-2+
 
 
 Files: ./debian/*
 Copyright: 2002, Guenter Geiger <geiger@debian.org>
-	2010, IOhannes m zmölnig <zmoelnig@iem.at>
+	2010, IOhannes m zmÃ¶lnig <zmoelnig@iem.at>
 	2010, Jonas Smedegaard <dr@jones.dk>
 License: GPL-2+
 
