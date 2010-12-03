@@ -8,7 +8,7 @@ Build-Depends: cdbs (>= 0.4.53),
  debhelper (>= 7.0.1),
  dh-buildinfo,
  pd,
- puredata
+ pd-pkg-tools
 Standards-Version: 3.9.1
 Homepage: http://puredata.info/community/projects/software/syslog
 Vcs-Git: git://git.debian.org/pkg-multimedia/pd-syslog.git
@@ -16,10 +16,10 @@ Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/pd-syslog.git;a=summary
 
 Package: pd-syslog
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, puredata
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${cdbs:Depends}
 Description: syslog facilities for Pd
  [syslog] takes care of sending arbitrary messages from Pure Data to syslog,
  tagged with a syslog level you feel appropriate.
  .
- that's it
+ You can use [syslog] just like the built-in [print].
 
