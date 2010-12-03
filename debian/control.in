@@ -4,8 +4,7 @@ Priority: optional
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Uploaders: IOhannes m zmoelnig (gpg-key at iem) <zmoelnig@iem.at>,
  Jonas Smedegaard <dr@jones.dk>
-Build-Depends: @cdbs@,
- puredata
+Build-Depends: @cdbs@
 Standards-Version: 3.9.1
 Homepage: http://puredata.info/community/projects/software/syslog
 Vcs-Git: git://git.debian.org/pkg-multimedia/pd-syslog.git
