@@ -17,5 +17,5 @@ Description: syslog facilities for Pd
  [syslog] takes care of sending arbitrary messages from Pure Data to syslog,
  tagged with a syslog level you feel appropriate.
  .
- that's it
+ You can use [syslog] just like the built-in [print].
 
