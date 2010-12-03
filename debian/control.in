@@ -12,7 +12,7 @@ Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/pd-syslog.git;a=summary
 
 Package: pd-syslog
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, puredata
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${cdbs:Depends}
 Description: syslog facilities for Pd
  [syslog] takes care of sending arbitrary messages from Pure Data to syslog,
  tagged with a syslog level you feel appropriate.
