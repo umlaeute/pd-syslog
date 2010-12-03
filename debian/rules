@@ -19,7 +19,7 @@
 
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/class/makefile.mk
-include /usr/share/pd-pkg-tools/1/class/pd-common.mk
+include /usr/share/pd-pkg-tools/1/class/pd.mk
 
 # Relax inclusion of optional features to ease backporting
 -include /usr/share/cdbs/1/rules/utils.mk
